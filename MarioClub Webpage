@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="sem.css">
+
+        <title>Marioclub</title>
+    </head>
+    <body>
+    <header>
+        <h1>Marioclub</h1>
+    </header>
+        <section class="banner">
+            <img src="img/banner.png" alt="Marioclub welcome banner">
+            <div class="welcome">
+                <h2>welcome to <br><span>Marioclub</span></h2>
+            </div>
+        </section>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="/join.html" class="join">Join the club</a></li>
+                <li><a href="/news.html">Latest News</a></li>
+                <li><a href="/games.html">New Games</a></li>
+                <li><a href="/contact.html">contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <article>
+                <h2>It's me Mario</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptas dolorum et quibusdam cum hic voluptatibus numquam quas sequi. Asperiores obcaecati rem excepturi atque officiis ab libero, suscipit architecto aperiam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum hic atque cum obcaecati, quas totam neque aliquam a temporibus suscipit, maiores minima quidem tempore perspiciatis odit ea quisquam enim cupiditate. </p>
+
+            </article>
+            <ul class="images">
+                <li><img src="img/thumb-1.png" alt="Mario Thumb 1"></li>
+                <li><img src="img/thumb-2.png" alt="Mario Thumb 2"></li>
+            </ul>
+        </main>
+        <section class="join"><h2>JOIN TODAY!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium velit aliquam nihil harum accusamus incidunt possimus exercitationem, itaque ipsam blanditiis consectetur perspiciatis, laborum optio a quis sed provident enim voluptatem?</p>
+            <form>
+                <input type="email" name="email" placeholder="Input your email here" required>
+            </form>
+        </section>
+        <footer>
+            <p class="Marioclub">Copyright 2021  Marioclub  </p>
+        </footer>
+       
+    </body>
+</html>
